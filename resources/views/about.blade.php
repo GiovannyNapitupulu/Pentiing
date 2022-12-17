@@ -1,47 +1,58 @@
 @extends('layout.main')
+@section('title')
+    Pentiing | About
+@endsection
 @section('content')
-    
     <!-- About Start -->
     <div class="container-fluid bg-secondary p-0">
         <div class="row g-0">
             <div class="col-lg-6 py-6 px-5">
                 <h1 class="display-5 mb-4">Welcome To <span class="text-primary">PENTIING</span></h1>
                 <h4 class="text-primary mb-4">Persiapan sebelum menjadi pasangan suami istri dan menjadi orang tua</h4>
-                <p class="mb-4">Pentiing akan membantu calon pasangan suami istri dalam persiapa pernikahan dan membantu orang tua dalam mengasuh anak. Pentiing menyediakan banyak modul dan artikel</p>
+                <p class="mb-4">Pentiing akan membantu calon pasangan suami istri dalam persiapa pernikahan dan membantu
+                    orang tua dalam mengasuh anak. Pentiing menyediakan banyak modul dan artikel</p>
             </div>
             <div class="col-lg-6">
                 <div class="h-100 d-flex flex-column justify-content-center bg-primary p-5">
                     <div class="d-flex text-white mb-5">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white text-primary rounded-circle mx-auto mb-4" style="width: 60px; height: 60px;">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white text-primary rounded-circle mx-auto mb-4"
+                            style="width: 60px; height: 60px;">
                             <i class="fa fa-user-tie fs-4"></i>
                         </div>
                         <div class="ps-4">
                             <h3>Konsultasi Secara Langsung</h3>
                             <p class="mb-0">
-                                Pentiing menyediakan sesi konsultasi dengan para ahli. Konsultasi akan memberikan banyak masukan dan juga akan memberi banyak ilmu yang akan sangat berguna untuk para calon suami istri maupun orang tua
+                                Pentiing menyediakan sesi konsultasi dengan para ahli. Konsultasi akan memberikan banyak
+                                masukan dan juga akan memberi banyak ilmu yang akan sangat berguna untuk para calon suami
+                                istri maupun orang tua
                             </p>
                         </div>
                     </div>
                     <div class="d-flex text-white mb-5">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white text-primary rounded-circle mx-auto mb-4" style="width: 60px; height: 60px;">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white text-primary rounded-circle mx-auto mb-4"
+                            style="width: 60px; height: 60px;">
                             <i class="fa fa-book fs-4"></i>
                         </div>
                         <div class="ps-4">
                             <h3>Modul Terlengkap</h3>
                             <p class="mb-0">
-                                Pentiing juga menyediakan berbagai modul yang berisikan ajaran-ajaran yang pastinya terlengkap dan terbaik. Modul juga dilengkapi dengan berbagai ilustrasi dan langkah-langkah yang harus diambil dalam menjalankan rumah tangga. 
-                            
+                                Pentiing juga menyediakan berbagai modul yang berisikan ajaran-ajaran yang pastinya
+                                terlengkap dan terbaik. Modul juga dilengkapi dengan berbagai ilustrasi dan langkah-langkah
+                                yang harus diambil dalam menjalankan rumah tangga.
+
                             </p>
                         </div>
                     </div>
                     <div class="d-flex text-white">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white text-primary rounded-circle mx-auto mb-4" style="width: 60px; height: 60px;">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white text-primary rounded-circle mx-auto mb-4"
+                            style="width: 60px; height: 60px;">
                             <i class="fa fa-users fs-4"></i>
                         </div>
                         <div class="ps-4">
                             <h3>Komunitas Kami</h3>
                             <p class="mb-0">
-                                Komunitas juga akan menjadi bagian dari keuntungan yang akan dimiliki oleh para member Pentiing.
+                                Komunitas juga akan menjadi bagian dari keuntungan yang akan dimiliki oleh para member
+                                Pentiing.
                             </p>
                         </div>
                     </div>
@@ -89,5 +100,4 @@
         </div>
     </div>
     <!-- Team End -->
-    
 @endsection

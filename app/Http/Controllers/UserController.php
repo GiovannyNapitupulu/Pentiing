@@ -45,6 +45,9 @@ class UserController extends Controller
         ]);
         if (Auth::attempt(['email' => $request->email, 'password' => $request->password])) {
             $request->session()->regenerate();
+            if (Auth()->user()->role == 'admin') {
+                return redirect()->intended('/admin');
+            }
             return redirect()->intended('/');
         }
         return back()->withErrors("email atau password salah");

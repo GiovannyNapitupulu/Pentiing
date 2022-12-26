@@ -46,7 +46,10 @@ class UserController extends Controller
         if (Auth::attempt(['email' => $request->email, 'password' => $request->password])) {
             $request->session()->regenerate();
             if (Auth()->user()->role == 'admin') {
-                return redirect()->intended('/admin');
+                return redirect()->intended(route('dashboard'));
+            }
+            if (Auth()->user()->role == 'dokter') {
+                return redirect()->intended(route('dokter.konsultasi'));
             }
             return redirect()->intended('/');
         }

@@ -2,16 +2,20 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\consultation;
+
 use Illuminate\Http\Request;
 
 class DokterController extends Controller
 {
     public function index()
     {
-        return view('Dokter.konsultasi');
+        $consultation = consultation::all();
+        return view('Dokter.konsultasi', ['consultation' => $consultation]);
     }
-    public function detail()
+    public function detail($id)
     {
-        return view('Dokter.detail');
+        $question = consultation::where('id', $id)->first();
+        return view('Dokter.detail', ['question' => $question]);
     }
 }

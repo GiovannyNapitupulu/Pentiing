@@ -16,6 +16,11 @@ return new class extends Migration
         Schema::create('consultations', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->string('name');
+            $table->string('email');
+            $table->string('topic');
+            $table->string('question');
+            $table->text('description');
         });
     }
 

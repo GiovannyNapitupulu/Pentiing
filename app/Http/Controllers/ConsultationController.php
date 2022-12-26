@@ -35,7 +35,22 @@ class ConsultationController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'email' => 'required|email',
+            'name' => 'required',
+            'topic' => 'required',
+            'description' => 'required',
+            'question' => 'required'
+        ]);
+        $consultation = new consultation([
+            'name' => $request->name,
+            'email' => $request->email,
+            'topic' => $request->topic,
+            'description' => $request->description,
+            'question' => $request->question
+        ]);
+        $consultation->save();
+        return redirect()->route('service')->with('service', 'Your question has been sent');
     }
 
     /**

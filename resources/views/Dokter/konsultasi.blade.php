@@ -17,7 +17,7 @@
             <h4 class="mt-4 mb-4">Konsultasi kesehatan Terbaru</h4>
 
             <!-- Get Setiap Pertanyaan konsultasi-->
-            @for ($i = 0; $i < 10; $i++)
+            @foreach ($consultation as $item)
                 <div class="card border-0 border-bottom">
                     <div class="card-body">
                         <div class="row">
@@ -29,13 +29,10 @@
                             <div class="col">
                                 <div class="row">
                                     <div class="col">
-                                        <a
-                                            href="{{ route('dokter                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          .detail') }}">
-                                            <h6 class="card-title">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, illum.
-                                            </h6>
-                                        </a>
-                                        <small class="card-subtitle text-muted">oleh: </small> <br>
+                                        <h6 class="card-title">
+                                            {{ $item->question }}
+                                        </h6>
+                                        <small class="card-subtitle text-muted">oleh: {{ $item->name }} </small> <br>
                                         <small class="text-primary">dijawab oleh: </small>
                                     </div>
                                     <div class="col-3">
@@ -44,13 +41,17 @@
                                 </div>
                             </div>
                         </div>
-                        <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk
-                            of the
-                            card's
-                            content.</p>
+                        <div class="row">
+                            <div class="col">
+                                <p class="card-text mt-3">{{ $item->description }}</p>
+                            </div>
+                            <div class="col-2 mt-2">
+                                <a class="" href="{{ route('question.detail', ['id' => $item->id]) }}">detail>></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            @endfor
+            @endforeach
         </div>
         <div class="col-4">
             <img src="https://tpc.googlesyndication.com/simgad/6895236797989058468" alt="">

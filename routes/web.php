@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ConsultationController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DokterController;
 use App\Http\Controllers\FaqController;
@@ -28,10 +29,13 @@ Route::get('/about', function () {
     return view('about');
 });
 
+//routing konsultasi
 Route::get('/service', function () {
     return view('service');
-});
+})->name('service');
+Route::post('/service', [ConsultationController::class, 'store'])->name('service.post');
 
+//routing contact
 Route::post('/faq', [FaqController::class, 'store'])->name('faq.submit');
 
 //Routing Admin
@@ -41,7 +45,7 @@ Route::middleware(['auth', 'roleCek:admin'])->group(function () {
 
 Route::middleware(['auth', 'roleCek:dokter'])->group(function () {
     Route::get('/dokter/konsultasi', [DokterController::class, 'index'])->name('dokter.konsultasi');
-    Route::get('/dokter/konsultasi/id', [DokterController::class, 'detail'])->name('dokter.detail');
+    Route::get('/dokter/konsultasi/{id}', [DokterController::class, 'detail'])->name('question.detail');
 });
 
 // Routing Authentikasi 

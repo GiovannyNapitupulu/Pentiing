@@ -290,8 +290,8 @@
                 <div class="team-item position-relative overflow-hidden">
                     <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
                     <div class="team-text w-100 position-absolute top-50 text-center bg-primary p-4">
-                        <h3 class="text-white">Full Name</h3>
-                        <p class="text-white text-uppercase mb-0">Designation</p>
+                        <h3 class="text-white">RENJUN</h3>
+                        <p class="text-white text-uppercase mb-0">Web Developer</p>
                     </div>
                 </div>
             </div>
@@ -299,8 +299,8 @@
                 <div class="team-item position-relative overflow-hidden">
                     <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
                     <div class="team-text w-100 position-absolute top-50 text-center bg-primary p-4">
-                        <h3 class="text-white">Full Name</h3>
-                        <p class="text-white text-uppercase mb-0">Designation</p>
+                        <h3 class="text-white">JENO</h3>
+                        <p class="text-white text-uppercase mb-0">Project Manager</p>
                     </div>
                 </div>
             </div>
@@ -308,7 +308,7 @@
                 <div class="team-item position-relative overflow-hidden">
                     <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
                     <div class="team-text w-100 position-absolute top-50 text-center bg-primary p-4">
-                        <h3 class="text-white">Full Name</h3>
+                        <h3 class="text-white">JAEMIN</h3>
                         <p class="text-white text-uppercase mb-0">Designation</p>
                     </div>
                 </div>
@@ -327,29 +327,30 @@
                 </div>
             </div>
             <div class="col-lg-6 py-6 px-5">
-                <h1 class="display-5 mb-4">What Say Our Client!!!</h1>
+                <h1 class="display-5 mb-4">Seruan Testimoni!!!</h1>
                 <div class="owl-carousel testimonial-carousel">
                     <div class="testimonial-item">
-                        <p class="fs-4 fw-normal mb-4"><i class="fa fa-quote-left text-primary me-3"></i>Dolores sed duo
-                            clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut
-                            et, nonumy et labore et tempor diam tempor erat dolor rebum sit ipsum.</p>
+                        <p class="fs-4 fw-normal mb-4"><i class="fa fa-quote-left text-primary me-3"></i>
+                            Pentiing benar-benar sangat membantu saya dalam menjalankan rumah tangga saya. Mereka membantu 
+                        mulai dari persiapan pernikahan hingga akhirnya saya memiliki anak dan jangan lupa dengan konsultasi finansial 
+                    yang disediakan.</p>
                         <div class="d-flex align-items-center">
                             <img class="img-fluid rounded-circle" src="img/testimonial-1.jpg" alt="">
                             <div class="ps-4">
-                                <h3>Client Name</h3>
-                                <span class="text-uppercase">Profession</span>
+                                <h3>Magdalena Natalia</h3>
+                                <span class="text-uppercase">Ibu Rumah Tangga</span>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item">
-                        <p class="fs-4 fw-normal mb-4"><i class="fa fa-quote-left text-primary me-3"></i>Dolores sed duo
-                            clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem lorem magna ut
-                            et, nonumy et labore et tempor diam tempor erat dolor rebum sit ipsum.</p>
+                        <p class="fs-4 fw-normal mb-4"><i class="fa fa-quote-left text-primary me-3"></i>
+                        Dengan adanya pentiing, saya menjadi tahu bagaimana menghadapi anak saya yang sangat suka tantrum dan 
+                    juga bagaimana menyiapkan finansial yang baik untuk persiapan anak saya sekolah</p>
                         <div class="d-flex align-items-center">
                             <img class="img-fluid rounded-circle" src="img/testimonial-2.jpg" alt="">
                             <div class="ps-4">
-                                <h3>Client Name</h3>
-                                <span class="text-uppercase">Profession</span>
+                                <h3>Marissa Claudia</h3>
+                                <span class="text-uppercase">Pegawai Kantoran</span>
                             </div>
                         </div>
                     </div>
@@ -363,7 +364,7 @@
     <!-- Blog Start -->
     <div class="container-fluid py-6 px-5">
         <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-            <h1 class="display-5 mb-0">Latest Blog Post</h1>
+            <h1 class="display-5 mb-0">Artikel Terbaru</h1>
             <hr class="w-25 mx-auto bg-primary">
         </div>
         <div class="row g-5">
@@ -375,16 +376,16 @@
                     <div class="bg-secondary d-flex">
                         <div
                             class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
-                            <span>01</span>
-                            <h5 class="text-uppercase m-0">Jan</h5>
-                            <span>2045</span>
+                            <span>29</span>
+                            <h5 class="text-uppercase m-0">Des</h5>
+                            <span>2022</span>
                         </div>
                         <div class="d-flex flex-column justify-content-center py-3 px-4">
                             <div class="d-flex mb-2">
-                                <small class="text-uppercase me-3"><i class="bi bi-person me-2"></i>Admin</small>
-                                <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web Design</small>
+                                <small class="text-uppercase me-3"><i class="bi bi-person me-2"></i>Member</small>
+                                <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Toodler</small>
                             </div>
-                            <a class="h4" href="">Magna sea dolor ipsum amet lorem eos</a>
+                            <a class="h4" href="">Tantrum? Jangan Dibujuk!</a>
                         </div>
                     </div>
                 </div>
@@ -397,16 +398,16 @@
                     <div class="bg-secondary d-flex">
                         <div
                             class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
-                            <span>01</span>
-                            <h5 class="text-uppercase m-0">Jan</h5>
-                            <span>2045</span>
+                            <span>25</span>
+                            <h5 class="text-uppercase m-0">Des</h5>
+                            <span>2022</span>
                         </div>
                         <div class="d-flex flex-column justify-content-center py-3 px-4">
                             <div class="d-flex mb-2">
-                                <small class="text-uppercase me-3"><i class="bi bi-person me-2"></i>Admin</small>
-                                <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web Design</small>
+                                <small class="text-uppercase me-3"><i class="bi bi-person me-2"></i>Free</small>
+                                <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Toodler</small>
                             </div>
-                            <a class="h4" href="">Magna sea dolor ipsum amet lorem eos</a>
+                            <a class="h4" href="">Memberi Hadiah pada Anak?</a>
                         </div>
                     </div>
                 </div>
@@ -419,16 +420,16 @@
                     <div class="bg-secondary d-flex">
                         <div
                             class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
-                            <span>01</span>
-                            <h5 class="text-uppercase m-0">Jan</h5>
-                            <span>2045</span>
+                            <span>20</span>
+                            <h5 class="text-uppercase m-0">Des</h5>
+                            <span>2022</span>
                         </div>
                         <div class="d-flex flex-column justify-content-center py-3 px-4">
                             <div class="d-flex mb-2">
-                                <small class="text-uppercase me-3"><i class="bi bi-person me-2"></i>Admin</small>
-                                <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web Design</small>
+                                <small class="text-uppercase me-3"><i class="bi bi-person me-2"></i>Free</small>
+                                <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>BeMarried</small>
                             </div>
-                            <a class="h4" href="">Magna sea dolor ipsum amet lorem eos</a>
+                            <a class="h4" href="">Mengapa Restu Orang Tua Penting?</a>
                         </div>
                     </div>
                 </div>

@@ -7,10 +7,10 @@
     <div class="container-fluid bg-dark p-5">
         <div class="row">
             <div class="col-12 text-center">
-                <h1 class="display-4 text-white">Services</h1>
-                <a href="">Home</a>
+                <h1 class="display-4 text-white">Konsultasi</h1>
+                <a href="">Beranda</a>
                 <i class="far fa-square text-primary px-2"></i>
-                <a href="">Services</a>
+                <a href="">Konsultasi </a>
             </div>
         </div>
     </div>

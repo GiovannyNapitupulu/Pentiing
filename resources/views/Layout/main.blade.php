@@ -106,8 +106,8 @@
                     <h1 class="display-5 mb-4">Stay Update!!!</h1>
                     <form class="mx-auto" style="max-width: 600px;">
                         <div class="input-group">
-                            <input type="text" class="form-control border-white p-3" placeholder="Your Email">
-                            <button class="btn btn-dark px-4">Sign Up</button>
+                            <input type="text" class="form-control border-white p-3" placeholder="E-mail">
+                            <button class="btn btn-dark px-4">Daftar</button>
                         </div>
                     </form>
                 </div>
@@ -119,37 +119,37 @@
                     <h3 class="text-white mb-4">Quick Links</h3>
                     <div class="d-flex flex-column justify-content-start">
                         <a class="text-secondary mb-2" href="#"><i
-                                class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                                class="bi bi-arrow-right text-primary me-2"></i>Beranda</a>
                         <a class="text-secondary mb-2" href="#"><i
-                                class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                                class="bi bi-arrow-right text-primary me-2"></i>Tentang Kami</a>
                         <a class="text-secondary mb-2" href="#"><i
-                                class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                                class="bi bi-arrow-right text-primary me-2"></i>Tawaran Kami</a>
                         <a class="text-secondary mb-2" href="#"><i
-                                class="bi bi-arrow-right text-primary me-2"></i>Latest Blog Post</a>
+                                class="bi bi-arrow-right text-primary me-2"></i>Artikel Terbaru</a>
                         <a class="text-secondary" href="#"><i
-                                class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                                class="bi bi-arrow-right text-primary me-2"></i>Kontak Kami</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h3 class="text-white mb-4">Popular Links</h3>
+                    <h3 class="text-white mb-4">Popular</h3>
                     <div class="d-flex flex-column justify-content-start">
                         <a class="text-secondary mb-2" href="#"><i
-                                class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                                class="bi bi-arrow-right text-primary me-2"></i>Beranda</a>
                         <a class="text-secondary mb-2" href="#"><i
-                                class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                                class="bi bi-arrow-right text-primary me-2"></i>Tentang Kami</a>
                         <a class="text-secondary mb-2" href="#"><i
-                                class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                                class="bi bi-arrow-right text-primary me-2"></i>Tawaran Kami</a>
                         <a class="text-secondary mb-2" href="#"><i
-                                class="bi bi-arrow-right text-primary me-2"></i>Latest Blog Post</a>
+                                class="bi bi-arrow-right text-primary me-2"></i>Artikel Terbaru</a>
                         <a class="text-secondary" href="#"><i
-                                class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                                class="bi bi-arrow-right text-primary me-2"></i>Kontak Kami</a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-white mb-4">Get In Touch</h3>
-                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@example.com</p>
-                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Sukabirus, Bandung</p>
+                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>Pentiing@gmail.com</p>
+                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+62-8352-5656-1212</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-white mb-4">Follow Us</h3>
@@ -168,9 +168,8 @@
         </div>
         <div class="container-fluid bg-dark text-secondary text-center border-top py-4 px-5"
             style="border-color: rgba(256, 256, 256, .1) !important;">
-            <p class="m-0">&copy; <a class="text-secondary border-bottom" href="#">Your Site Name</a>. All
-                Rights Reserved. Designed by <a class="text-secondary border-bottom" href="https://htmlcodex.com">HTML
-                    Codex</a></p>
+            <p class="m-0">&copy; <a class="text-secondary border-bottom" href="#">Pentiing</a>. All
+                Rights Reserved.<a class="text-secondary border-bottom" href="https://htmlcodex.com"></a></p>
         </div>
         <!-- Footer End -->
 

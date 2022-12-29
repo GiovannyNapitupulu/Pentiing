@@ -10,10 +10,10 @@
         <div class="container-fluid bg-dark p-5">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1 class="display-4 text-white">Contact Us</h1>
-                    <a href="">Home</a>
+                    <h1 class="display-4 text-white">Kontak Kami</h1>
+                    <a href="">Beranda</a>
                     <i class="far fa-square text-primary px-2"></i>
-                    <a href="">Contact</a>
+                    <a href="">Kontak</a>
                 </div>
             </div>
         </div>
@@ -34,7 +34,7 @@
                             </p>
                         @endforeach
                     @endif
-                    <h1 class="display-5 mb-4">Contact For Any Queries</h1>
+                    <h1 class="display-5 mb-4">Kontak Kami Terkait Apapun</h1>
                     <form action="{{ route('faq.submit') }}" method="POST">
                         @csrf
                         <div class="row g-3">
@@ -42,31 +42,31 @@
                                 <div class="form-floating">
                                     <input type="text" name="name" class="form-control" id="form-floating-1"
                                         placeholder="John Doe">
-                                    <label for="form-floating-1">Full Name</label>
+                                    <label for="form-floating-1">Nama Lengkap</label>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="form-floating">
                                     <input type="email" name="email" class="form-control" id="form-floating-2"
                                         placeholder="name@example.com">
-                                    <label for="form-floating-2">Email address</label>
+                                    <label for="form-floating-2">E-mail</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
                                     <input type="text" name="subject" class="form-control" id="form-floating-3"
                                         placeholder="Subject">
-                                    <label for="form-floating-3">Subject</label>
+                                    <label for="form-floating-3">Subjek</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
                                     <textarea class="form-control" name="message" placeholder="Message" id="form-floating-4" style="height: 150px"></textarea>
-                                    <label for="form-floating-4">Message</label>
+                                    <label for="form-floating-4">Pesan</label>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Submit</button>
+                                <button class="btn btn-primary w-100 py-3" type="submit">Kirim</button>
                             </div>
                         </div>
                     </form>

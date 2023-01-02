@@ -1,10 +1,8 @@
-@extends('layout/main')
+@extends('layout.main')
 @section('title')
     Pentiing | Modul
 @endsection
 @section('content')
-    <div>
-
     <!-- Page Header Start -->
     <div class="container-fluid bg-dark p-5">
         <div class="row">
@@ -18,7 +16,6 @@
     </div>
     <!-- Page Header End -->
 
-
     <!-- Blog Start -->
     <div class="container-fluid py-6 px-5">
         <div class="row g-5">
@@ -31,7 +28,8 @@
                                 <img class="img-fluid" src="img/blog-1.jpg" alt="">
                             </div>
                             <div class="bg-secondary d-flex">
-                                <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
+                                <div
+                                    class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
                                     <span>01</span>
                                     <h5 class="text-uppercase m-0">Jan</h5>
                                     <span>2045</span>
@@ -39,7 +37,8 @@
                                 <div class="d-flex flex-column justify-content-center py-3 px-4">
                                     <div class="d-flex mb-2">
                                         <small class="text-uppercase me-3"><i class="bi bi-person me-2"></i>Admin</small>
-                                        <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web Design</small>
+                                        <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web
+                                            Design</small>
                                     </div>
                                     <a class="h4" href="">Magna sea dolor ipsum amet lorem eos</a>
                                 </div>
@@ -52,7 +51,8 @@
                                 <img class="img-fluid" src="img/blog-1.jpg" alt="">
                             </div>
                             <div class="bg-secondary d-flex">
-                                <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
+                                <div
+                                    class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
                                     <span>01</span>
                                     <h5 class="text-uppercase m-0">Jan</h5>
                                     <span>2045</span>
@@ -60,7 +60,8 @@
                                 <div class="d-flex flex-column justify-content-center py-3 px-4">
                                     <div class="d-flex mb-2">
                                         <small class="text-uppercase me-3"><i class="bi bi-person me-2"></i>Admin</small>
-                                        <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web Design</small>
+                                        <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web
+                                            Design</small>
                                     </div>
                                     <a class="h4" href="">Magna sea dolor ipsum amet lorem eos</a>
                                 </div>
@@ -73,7 +74,8 @@
                                 <img class="img-fluid" src="img/blog-1.jpg" alt="">
                             </div>
                             <div class="bg-secondary d-flex">
-                                <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
+                                <div
+                                    class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
                                     <span>01</span>
                                     <h5 class="text-uppercase m-0">Jan</h5>
                                     <span>2045</span>
@@ -81,7 +83,8 @@
                                 <div class="d-flex flex-column justify-content-center py-3 px-4">
                                     <div class="d-flex mb-2">
                                         <small class="text-uppercase me-3"><i class="bi bi-person me-2"></i>Admin</small>
-                                        <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web Design</small>
+                                        <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web
+                                            Design</small>
                                     </div>
                                     <a class="h4" href="">Magna sea dolor ipsum amet lorem eos</a>
                                 </div>
@@ -94,7 +97,8 @@
                                 <img class="img-fluid" src="img/blog-1.jpg" alt="">
                             </div>
                             <div class="bg-secondary d-flex">
-                                <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
+                                <div
+                                    class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
                                     <span>01</span>
                                     <h5 class="text-uppercase m-0">Jan</h5>
                                     <span>2045</span>
@@ -102,7 +106,8 @@
                                 <div class="d-flex flex-column justify-content-center py-3 px-4">
                                     <div class="d-flex mb-2">
                                         <small class="text-uppercase me-3"><i class="bi bi-person me-2"></i>Admin</small>
-                                        <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web Design</small>
+                                        <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web
+                                            Design</small>
                                     </div>
                                     <a class="h4" href="">Magna sea dolor ipsum amet lorem eos</a>
                                 </div>
@@ -115,7 +120,8 @@
                                 <img class="img-fluid" src="img/blog-1.jpg" alt="">
                             </div>
                             <div class="bg-secondary d-flex">
-                                <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
+                                <div
+                                    class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
                                     <span>01</span>
                                     <h5 class="text-uppercase m-0">Jan</h5>
                                     <span>2045</span>
@@ -123,7 +129,8 @@
                                 <div class="d-flex flex-column justify-content-center py-3 px-4">
                                     <div class="d-flex mb-2">
                                         <small class="text-uppercase me-3"><i class="bi bi-person me-2"></i>Admin</small>
-                                        <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web Design</small>
+                                        <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web
+                                            Design</small>
                                     </div>
                                     <a class="h4" href="">Magna sea dolor ipsum amet lorem eos</a>
                                 </div>
@@ -136,7 +143,8 @@
                                 <img class="img-fluid" src="img/blog-1.jpg" alt="">
                             </div>
                             <div class="bg-secondary d-flex">
-                                <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
+                                <div
+                                    class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
                                     <span>01</span>
                                     <h5 class="text-uppercase m-0">Jan</h5>
                                     <span>2045</span>
@@ -144,7 +152,8 @@
                                 <div class="d-flex flex-column justify-content-center py-3 px-4">
                                     <div class="d-flex mb-2">
                                         <small class="text-uppercase me-3"><i class="bi bi-person me-2"></i>Admin</small>
-                                        <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web Design</small>
+                                        <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web
+                                            Design</small>
                                     </div>
                                     <a class="h4" href="">Magna sea dolor ipsum amet lorem eos</a>
                                 </div>
@@ -157,7 +166,8 @@
                                 <img class="img-fluid" src="img/blog-1.jpg" alt="">
                             </div>
                             <div class="bg-secondary d-flex">
-                                <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
+                                <div
+                                    class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
                                     <span>01</span>
                                     <h5 class="text-uppercase m-0">Jan</h5>
                                     <span>2045</span>
@@ -165,7 +175,8 @@
                                 <div class="d-flex flex-column justify-content-center py-3 px-4">
                                     <div class="d-flex mb-2">
                                         <small class="text-uppercase me-3"><i class="bi bi-person me-2"></i>Admin</small>
-                                        <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web Design</small>
+                                        <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web
+                                            Design</small>
                                     </div>
                                     <a class="h4" href="">Magna sea dolor ipsum amet lorem eos</a>
                                 </div>
@@ -178,7 +189,8 @@
                                 <img class="img-fluid" src="img/blog-1.jpg" alt="">
                             </div>
                             <div class="bg-secondary d-flex">
-                                <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
+                                <div
+                                    class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
                                     <span>01</span>
                                     <h5 class="text-uppercase m-0">Jan</h5>
                                     <span>2045</span>
@@ -186,7 +198,8 @@
                                 <div class="d-flex flex-column justify-content-center py-3 px-4">
                                     <div class="d-flex mb-2">
                                         <small class="text-uppercase me-3"><i class="bi bi-person me-2"></i>Admin</small>
-                                        <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web Design</small>
+                                        <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web
+                                            Design</small>
                                     </div>
                                     <a class="h4" href="">Magna sea dolor ipsum amet lorem eos</a>
                                 </div>
@@ -199,7 +212,8 @@
                                 <img class="img-fluid" src="img/blog-1.jpg" alt="">
                             </div>
                             <div class="bg-secondary d-flex">
-                                <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
+                                <div
+                                    class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
                                     <span>01</span>
                                     <h5 class="text-uppercase m-0">Jan</h5>
                                     <span>2045</span>
@@ -207,7 +221,8 @@
                                 <div class="d-flex flex-column justify-content-center py-3 px-4">
                                     <div class="d-flex mb-2">
                                         <small class="text-uppercase me-3"><i class="bi bi-person me-2"></i>Admin</small>
-                                        <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web Design</small>
+                                        <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web
+                                            Design</small>
                                     </div>
                                     <a class="h4" href="">Magna sea dolor ipsum amet lorem eos</a>
                                 </div>
@@ -220,7 +235,8 @@
                                 <img class="img-fluid" src="img/blog-1.jpg" alt="">
                             </div>
                             <div class="bg-secondary d-flex">
-                                <div class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
+                                <div
+                                    class="flex-shrink-0 d-flex flex-column justify-content-center text-center bg-primary text-white px-4">
                                     <span>01</span>
                                     <h5 class="text-uppercase m-0">Jan</h5>
                                     <span>2045</span>
@@ -228,7 +244,8 @@
                                 <div class="d-flex flex-column justify-content-center py-3 px-4">
                                     <div class="d-flex mb-2">
                                         <small class="text-uppercase me-3"><i class="bi bi-person me-2"></i>Admin</small>
-                                        <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web Design</small>
+                                        <small class="text-uppercase me-3"><i class="bi bi-bookmarks me-2"></i>Web
+                                            Design</small>
                                     </div>
                                     <a class="h4" href="">Magna sea dolor ipsum amet lorem eos</a>
                                 </div>
@@ -237,21 +254,21 @@
                     </div>
                     <div class="col-12">
                         <nav aria-label="Page navigation">
-                          <ul class="pagination pagination-lg m-0">
-                            <li class="page-item disabled">
-                              <a class="page-link rounded-0" href="#" aria-label="Previous">
-                                <span aria-hidden="true"><i class="bi bi-arrow-left"></i></span>
-                              </a>
-                            </li>
-                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item">
-                              <a class="page-link rounded-0" href="#" aria-label="Next">
-                                <span aria-hidden="true"><i class="bi bi-arrow-right"></i></span>
-                              </a>
-                            </li>
-                          </ul>
+                            <ul class="pagination pagination-lg m-0">
+                                <li class="page-item disabled">
+                                    <a class="page-link rounded-0" href="#" aria-label="Previous">
+                                        <span aria-hidden="true"><i class="bi bi-arrow-left"></i></span>
+                                    </a>
+                                </li>
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link rounded-0" href="#" aria-label="Next">
+                                        <span aria-hidden="true"><i class="bi bi-arrow-right"></i></span>
+                                    </a>
+                                </li>
+                            </ul>
                         </nav>
                     </div>
                 </div>
@@ -273,11 +290,16 @@
                 <div class="mb-5">
                     <h2 class="mb-4">Categories</h2>
                     <div class="d-flex flex-column justify-content-start bg-secondary p-4">
-                        <a class="h5 mb-3" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Web Design</a>
-                        <a class="h5 mb-3" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Web Development</a>
-                        <a class="h5 mb-3" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Web Development</a>
-                        <a class="h5 mb-3" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Keyword Research</a>
-                        <a class="h5" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Email Marketing</a>
+                        <a class="h5 mb-3" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Web
+                            Design</a>
+                        <a class="h5 mb-3" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Web
+                            Development</a>
+                        <a class="h5 mb-3" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Web
+                            Development</a>
+                        <a class="h5 mb-3" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Keyword
+                            Research</a>
+                        <a class="h5" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Email
+                            Marketing</a>
                     </div>
                 </div>
                 <!-- Category End -->
@@ -286,28 +308,38 @@
                 <div class="mb-5">
                     <h2 class="mb-4">Recent Post</h2>
                     <div class="d-flex mb-3">
-                        <img class="img-fluid" src="img/blog-1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                        <a href="" class="h5 d-flex align-items-center bg-secondary px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+                        <img class="img-fluid" src="img/blog-1.jpg"
+                            style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <a href="" class="h5 d-flex align-items-center bg-secondary px-3 mb-0">Lorem ipsum
+                            dolor sit amet adipis elit
                         </a>
                     </div>
                     <div class="d-flex mb-3">
-                        <img class="img-fluid" src="img/blog-1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                        <a href="" class="h5 d-flex align-items-center bg-secondary px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+                        <img class="img-fluid" src="img/blog-1.jpg"
+                            style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <a href="" class="h5 d-flex align-items-center bg-secondary px-3 mb-0">Lorem ipsum
+                            dolor sit amet adipis elit
                         </a>
                     </div>
                     <div class="d-flex mb-3">
-                        <img class="img-fluid" src="img/blog-1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                        <a href="" class="h5 d-flex align-items-center bg-secondary px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+                        <img class="img-fluid" src="img/blog-1.jpg"
+                            style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <a href="" class="h5 d-flex align-items-center bg-secondary px-3 mb-0">Lorem ipsum
+                            dolor sit amet adipis elit
                         </a>
                     </div>
                     <div class="d-flex mb-3">
-                        <img class="img-fluid" src="img/blog-1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                        <a href="" class="h5 d-flex align-items-center bg-secondary px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+                        <img class="img-fluid" src="img/blog-1.jpg"
+                            style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <a href="" class="h5 d-flex align-items-center bg-secondary px-3 mb-0">Lorem ipsum
+                            dolor sit amet adipis elit
                         </a>
                     </div>
                     <div class="d-flex">
-                        <img class="img-fluid" src="img/blog-1.jpg" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                        <a href="" class="h5 d-flex align-items-center bg-secondary px-3 mb-0">Lorem ipsum dolor sit amet adipis elit
+                        <img class="img-fluid" src="img/blog-1.jpg"
+                            style="width: 100px; height: 100px; object-fit: cover;" alt="">
+                        <a href="" class="h5 d-flex align-items-center bg-secondary px-3 mb-0">Lorem ipsum
+                            dolor sit amet adipis elit
                         </a>
                     </div>
                 </div>
@@ -343,7 +375,9 @@
                 <div>
                     <h2 class="mb-4">Plain Text</h2>
                     <div class="bg-secondary text-center" style="padding: 30px;">
-                        <p>Vero sea et accusam justo dolor accusam lorem consetetur, dolores sit amet sit dolor clita kasd justo, diam accusam no sea ut tempor magna takimata, amet sit et diam dolor ipsum amet diam</p>
+                        <p>Vero sea et accusam justo dolor accusam lorem consetetur, dolores sit amet sit dolor clita
+                            kasd justo, diam accusam no sea ut tempor magna takimata, amet sit et diam dolor ipsum amet
+                            diam</p>
                         <a href="" class="btn btn-primary rounded-pill py-2 px-4">Read More</a>
                     </div>
                 </div>
@@ -353,21 +387,4 @@
         </div>
     </div>
     <!-- Blog End -->
-    @endsection
-
-
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
-
-
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-</body>
+@endsection

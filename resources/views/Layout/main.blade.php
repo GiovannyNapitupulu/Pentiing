@@ -81,11 +81,10 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Lainnya</a>
                             <div class="dropdown-menu m-0">
-                                <a href="blog.html" class="dropdown-item">Modul</a>
-                                <a href="detail.html" class="dropdown-item">Konsultasi</a>
-                                <a href="feature.html" class="dropdown-item">Comunitas</a>
-                                <a href="quote.html" class="dropdown-item">Membership</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="/blog" class="dropdown-item">Modul</a>
+                                <a href="/detail" class="dropdown-item">Comunitas</a>
+                                <a href="/feature" class="dropdown-item">Membership</a>
+                                <a href="/testimonial" class="dropdown-item">Testimonial</a>
                                 <a href="{{ route('logout') }}" class="dropdown-item">logout</a>
                             </div>
                         </div>

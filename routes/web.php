@@ -29,6 +29,22 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/blog', function () {
+    return view('blog');
+});
+
+Route::get('/detail', function () {
+    return view('detail');
+});
+
+Route::get('/feature', function () {
+    return view('feature');
+});
+
+Route::get('/testimonial', function () {
+    return view('testimonial');
+});
+
 //routing konsultasi
 Route::get('/service', function () {
     return view('service');
@@ -54,3 +70,15 @@ Route::get('/logout', [UserController::class, 'logout'])->name('logout');
 Route::post('/login', [UserController::class, 'login_action'])->name('login.action');
 Route::get('/register', [UserController::class, 'register'])->name('register');
 Route::post('/register', [UserController::class, 'register_action'])->name('register.action');
+
+Route::get('/blog ', [UserController::class, 'blog '])->name('blog ');
+Route::get('/blog ', [UserController::class, 'blog_action'])->name('blog.action ');
+
+Route::get('/detail ', [UserController::class, 'detail '])->name('detail ');
+Route::get('/detail ', [UserController::class, 'detail_action'])->name('detail.action ');
+
+Route::get('/feature ', [UserController::class, 'feature '])->name('feature');
+Route::get('/feature ', [UserController::class, 'feature_action'])->name('feature.action ');
+
+Route::get('/testimonial ', [UserController::class, 'testimonial '])->name('testimonial');
+Route::get('/testimonial ', [UserController::class, 'testimonial_action'])->name('testimonial.action ');

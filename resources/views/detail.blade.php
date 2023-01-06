@@ -7,10 +7,10 @@
     <div class="container-fluid bg-dark p-5">
         <div class="row">
             <div class="col-12 text-center">
-                <h1 class="display-4 text-white">Blog Detail</h1>
-                <a href="">Home</a>
+                <h1 class="display-4 text-white">Komunitas</h1>
+                <a href="">Beranda</a>
                 <i class="far fa-square text-primary px-2"></i>
-                <a href="">Blog Detail</a>
+                <a href="">Komunitas</a>
             </div>
         </div>
     </div>
@@ -122,7 +122,7 @@
 
                 <!-- Category Start -->
                 <div class="mb-5">
-                    <h2 class="mb-4">Categories</h2>
+                    <h2 class="mb-4">Kategori</h2>
                     <div class="d-flex flex-column justify-content-start bg-secondary p-4">
                         <a class="h5 mb-3" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Web Design</a>
                         <a class="h5 mb-3" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Web

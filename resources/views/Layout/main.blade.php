@@ -34,38 +34,11 @@
 
 <body>
     <div>
-        <!-- Topbar Start -->
-        <div class="container-fluid bg-secondary ps-5 pe-0 d-none d-lg-block">
-            <div class="row gx-0">
-                <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
-                    <div class="d-inline-flex align-items-center">
-                        <a class="text-body py-2 pe-3 border-end" href=""><small>FAQs</small></a>
-                        <a class="text-body py-2 px-3 border-end" href=""><small>Support</small></a>
-                        <a class="text-body py-2 px-3 border-end" href=""><small>Privacy</small></a>
-                        <a class="text-body py-2 px-3 border-end" href=""><small>Policy</small></a>
-                        <a class="text-body py-2 ps-3" href=""><small>Career</small></a>
-                    </div>
-                </div>
-                <div class="col-md-6 text-center text-lg-end">
-                    <div
-                        class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
-                        <div class="me-3 pe-3 border-end py-2">
-                            <p class="m-0"><i class="fa fa-envelope-open me-2"></i>pentiing@gmail.com</p>
-                        </div>
-                        <div class="py-2">
-                            <p class="m-0"><i class="fa fa-phone-alt me-2"></i>081265727890</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Topbar End -->
-
-
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
             <a href="/" class="navbar-brand p-0">
-                <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-family text-primary me-2"></i>Pentiing</h1>
+                <img class="img mx-auto" src="img/pentiing_logo.png" width="142">
+                <!-- <h1 class="m-0 text-uppercase text-primary"><i class="fa fa-family text-primary me-2"></i>Pentiing</h1> -->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -82,7 +55,7 @@
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Lainnya</a>
                             <div class="dropdown-menu m-0">
                                 <a href="/blog" class="dropdown-item">Modul</a>
-                                <a href="/detail" class="dropdown-item">Comunitas</a>
+                                <a href="/detail" class="dropdown-item">Komunitas</a>
                                 <a href="/feature" class="dropdown-item">Membership</a>
                                 <a href="/testimonial" class="dropdown-item">Testimonial</a>
                                 <a href="{{ route('logout') }}" class="dropdown-item">logout</a>
@@ -99,19 +72,6 @@
             @yield('content')
         </div>
         <!-- Footer Start -->
-        <div class="container-fluid bg-primary text-secondary p-5">
-            <div class="row g-5">
-                <div class="col-12 text-center">
-                    <h1 class="display-5 mb-4">Stay Update!!!</h1>
-                    <form class="mx-auto" style="max-width: 600px;">
-                        <div class="input-group">
-                            <input type="text" class="form-control border-white p-3" placeholder="E-mail">
-                            <button class="btn btn-dark px-4">Daftar</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
         <div class="container-fluid bg-dark text-secondary p-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">

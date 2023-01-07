@@ -41,13 +41,16 @@ Route::get('/feature', function () {
     return view('feature');
 })->name('feature');
 
+
 //route pemesanan membership
-Route::get('/pemesanan/{type}', function ($type) {
-    return view('pemesanan', ['type' => $type]);
-})->name('pemesanan');
+Route::middleware(['auth'])->group(function () {
+    Route::get('/pemesanan/{type}', function ($type) {
+        return view('pemesanan', ['type' => $type]);
+    })->name('pemesanan');
+    Route::post('/pemesanan/', [UserController::class, 'setType'])->name('pemesanan.action');
+});
 
 
-Route::post('/pemesanan/', [UserController::class, 'setType'])->name('pemesanan.action');
 
 
 //route testimonial

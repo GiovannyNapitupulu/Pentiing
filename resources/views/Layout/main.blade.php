@@ -52,7 +52,7 @@
                     <a href="/contact" class="nav-item nav-link {{ Request::is('contact') ? 'active' : '' }}">Kontak</a>
                     @auth
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Lainnya</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{Auth::user()->name}}</a>
                             <div class="dropdown-menu m-0">
                                 <a href="/blog" class="dropdown-item">Modul</a>
                                 <a href="/detail" class="dropdown-item">Komunitas</a>

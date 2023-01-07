@@ -107,50 +107,55 @@
         <div class="container">
   
           <div class="section-title">
-            <h2>Harga</h2>
+            <div class="text-center mx-auto mb-5" style="max-width: 600px;">
+                <h1 class="display-5 mb-0">Membersip with Us</h1>
+                <hr class="w-25 mx-auto bg-primary">
+            </div>
             <p>
               Berikut penawaran harga yang kami sediakan disertai dengan fitur yang dapat diakses :
             </p>
           </div>
-  
+          
           <div class="row">
-  
-            <div class="col-lg-3 col-md-6">
-              <div class="box">
-                <h3>Membership Platinum</h3>
-                <h4><sup>Rp</sup>400k</h4>
-                <ul>
-                  <li>Modul</li>
-                  <li>Konsultasi</li>
-                  <li class="na">Komunitas</li>
-
-                </ul>
-                <div class="btn-wrap">
-                  <a href="modal.html" class="btn-buy">Membership</a>
-                </div>
-              </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Member Gold</h5>
+                      <p class="card-text">
+                        <h4><sup>Rp</sup>400k</h4>
+                      <ul>
+                        <li>Konsultasi Gratis 2 kali</li>
+                        <li>Modul</li>
+                        <li>Artikel</li>
+                        <li class="na">Komunitas</li>
+                        <div class="btn-wrap">
+                            <a href="modal.php?paket=Paket 1" class="btn-buy">Pesan!</a>
+                          </div>
+                      </p>
+                    </div>
+                  </div>
+                  </div>
             </div>
-    
-            <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-              <div class="box">
-                <h3>Membership Gold</h3>
-                <h4><sup>Rp</sup>1000k</h4>
-                <ul>
-                    <li>Modul</li>
-                    <li>Konsultasi</li>
-                    <li>Komunitas</li>
-                  
-                </ul>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Member Platinum</h5>
+              <p class="card-text">
+                <h4><sup>Rp</sup>500k</h4>
+              <ul>
+                <li>Konsultasi Gratis 5 kali</li>
+                <li>Modul</li>
+                <li>Artikel</li>
+                <li>Komunitas</li>
                 <div class="btn-wrap">
-                  <a href="modal.html" class="btn-buy">Pesan!</a>
-                </div>
-              </div>
+                    <a href="modal.php?paket=Paket 1" class="btn-buy">Pesan!</a>
+                  </div>
+              </p>
             </div>
-  
-
-  
+            </div>
           </div>
-  
+          </div>
+          </div>
         </div>
       </section><!-- End harga Section -->
 

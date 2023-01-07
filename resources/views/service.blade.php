@@ -101,7 +101,7 @@
     <div class="container-fluid bg-secondary px-0">
         <div class="row g-0">
             <div class="col-lg-6 py-6 px-5">
-                <h1 class="display-5 mb-4">Request A Free Quote</h1>
+                <h1 class="display-5 mb-4">Ayo Konsultasi!</h1>
                 @if (session('service'))
                     <p class="alert alert-success">{{ session('service') }}</p>
                 @endif
@@ -112,10 +112,7 @@
                         </p>
                     @endforeach
                 @endif
-                <p class="mb-4">Kasd vero erat ea amet justo no stet, et elitr no dolore no elitr sea kasd et dolor diam
-                    tempor. Nonumy sed dolore no eirmod sit nonumy vero lorem amet stet diam at. Ea at lorem sed et, lorem
-                    et rebum ut eirmod gubergren, dolor ea duo diam justo dolor diam ipsum dolore stet stet elitr ut. Ipsum
-                    amet labore lorem lorem diam magna sea, eos sed dolore elitr.</p>
+                <p class="mb-4">Konsultasikan permasalahan atau petanyaan yang kamu hadapi</p>
                 <form action="{{ route('service.post') }}" method="POST">
                     @csrf
                     <div class="row gx-3">
@@ -123,14 +120,14 @@
                             <div class="form-floating">
                                 <input type="text" class="form-control" name="name" id="form-floating-1"
                                     placeholder="John Doe" value="{{ Auth::user()->name }}">
-                                <label for="form-floating-1">Full Name</label>
+                                <label for="form-floating-1">Nama Lengkap</label>
                             </div>
                         </div>
                         <div class="col-6">
                             <div class="form-floating mb-3">
                                 <input type="email" name="email" class="form-control" id="form-floating-2"
                                     placeholder="name@example.com" value="{{ Auth::user()->email }}">
-                                <label for="form-floating-2">Email address</label>
+                                <label for="form-floating-2">E-mail</label>
                             </div>
                         </div>
                         <div class="col-12">
@@ -144,25 +141,25 @@
                                     <option value="Teen">Teen</option>
                                     <option value="Financial">Financial</option>
                                 </select>
-                                <label for="floatingSelect">Select A Topic</label>
+                                <label for="floatingSelect">Pilih Topik</label>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form-floating mb-3">
                                 <input type="text" name="question" class="form-control" id="form-floating-2"
                                     placeholder="Question">
-                                <label for="form-floating-2">Question</label>
+                                <label for="form-floating-2">Pertanyaan</label>
                             </div>
                         </div>
                         <div class="col-12">
                             <div class="form-floating mb-3">
                                 <textarea class="form-control" name="description" placeholder="Description" id="form-floating-4"
                                     style="height: 150px"></textarea>
-                                <label for="form-floating-4">Description</label>
+                                <label for="form-floating-4">Deskripsikan</label>
                             </div>
                         </div>
                         <div class="col-6">
-                            <button class="btn btn-primary w-100 h-100" type="submit">Request A Quote</button>
+                            <button class="btn btn-primary w-100 h-100" type="submit">Konsultasi</button>
                         </div>
                     </div>
                 </form>

@@ -45,11 +45,7 @@ Route::get('/testimonial', function () {
     return view('testimonial');
 });
 
-//routing konsultasi
-Route::get('/service', function () {
-    return view('service');
-})->name('service');
-Route::post('/service', [ConsultationController::class, 'store'])->name('service.post');
+
 
 //routing contact
 Route::post('/faq', [FaqController::class, 'store'])->name('faq.submit');
@@ -57,6 +53,15 @@ Route::post('/faq', [FaqController::class, 'store'])->name('faq.submit');
 //Routing Admin
 Route::middleware(['auth', 'roleCek:admin'])->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+});
+
+Route::middleware(['auth'])->group(function () {
+    //routing konsultasi
+    Route::get('/service', function () {
+        return view('service');
+    })->name('service');
+
+    Route::post('/service', [ConsultationController::class, 'store'])->name('service.post');
 });
 
 Route::middleware(['auth', 'roleCek:dokter'])->group(function () {

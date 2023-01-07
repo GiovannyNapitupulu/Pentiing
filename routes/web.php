@@ -41,6 +41,9 @@ Route::get('/feature', function () {
     return view('feature');
 })->name('feature');
 
+Route::get('/workshop', function () {
+    return view('workshop');
+})->name('workshop');
 
 //route pemesanan membership
 Route::middleware(['auth'])->group(function () {
@@ -99,3 +102,6 @@ Route::get('/detail ', [UserController::class, 'detail_action'])->name('detail.a
 
 Route::get('/testimonial ', [UserController::class, 'testimonial '])->name('testimonial');
 Route::get('/testimonial ', [UserController::class, 'testimonial_action'])->name('testimonial.action ');
+
+Route::get('/workshop ', [UserController::class, 'workshop '])->name('workshop');
+Route::get('/workshop ', [UserController::class, 'workshop_action'])->name('workshop.action ');

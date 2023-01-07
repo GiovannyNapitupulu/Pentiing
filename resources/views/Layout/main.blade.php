@@ -57,6 +57,7 @@
                                 <a href="/blog" class="dropdown-item">Modul</a>
                                 <a href="/detail" class="dropdown-item">Komunitas</a>
                                 <a href="/feature" class="dropdown-item">Membership</a>
+                                <a href="/workshop" class="dropdown-item">Workshop</a>
                                 <a href="/testimonial" class="dropdown-item">Testimonial</a>
                                 <a href="{{ route('logout') }}" class="dropdown-item">logout</a>
                             </div>

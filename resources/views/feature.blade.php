@@ -129,7 +129,7 @@
                                     <li>Konsultasi Gratis 2 kali</li>
                                     <li>Modul</li>
                                     <li>Artikel</li>
-                                    <li class="na">Komunitas</li>
+                                    <li class="na" style="text-decoration-line:line-through ">Komunitas</li>
                                 </ul>
                                 <div class="btn-wrap">
                                     <a href="{{ route('pemesanan', ['type' => 'gold']) }}"
@@ -142,18 +142,19 @@
                         <div class="card" style="width: 18rem;">
                             <div class="card-body">
                                 <h5 class="card-title">Member Platinum</h5>
-                                <p class="card-text">
+                                <p class="card-text"></p>
                                 <h4><sup>Rp</sup>500k</h4>
                                 <ul>
                                     <li>Konsultasi Gratis 5 kali</li>
                                     <li>Modul</li>
                                     <li>Artikel</li>
                                     <li>Komunitas</li>
-                                    <div class="btn-wrap">
+                                    
+                                </ul>
+                                <div class="btn-wrap">
                                         <a href="{{ route('pemesanan', ['type' => 'platinum']) }}"
                                             class="btn btn-buy btn-primary">Pesan!</a>
                                     </div>
-                                    </p>
                             </div>
                         </div>
                     </div>

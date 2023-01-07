@@ -39,12 +39,13 @@ Route::get('/detail', function () {
 
 Route::get('/feature', function () {
     return view('feature');
-});
+})->name('feature');
 
 //route pemesanan membership
 Route::get('/pemesanan/{type}', function ($type) {
     return view('pemesanan', ['type' => $type]);
 })->name('pemesanan');
+
 
 Route::post('/pemesanan/', [UserController::class, 'setType'])->name('pemesanan.action');
 
@@ -54,7 +55,14 @@ Route::get('/testimonial', function () {
     return view('testimonial');
 });
 
+//service
+Route::middleware(['auth', 'CekType:gold'])->group(function () {
+    Route::get('/service', function () {
+        return view('service');
+    })->name('service');
 
+    Route::post('/service', [ConsultationController::class, 'store'])->name('service.post');
+});
 
 //routing contact
 Route::post('/faq', [FaqController::class, 'store'])->name('faq.submit');
@@ -64,14 +72,7 @@ Route::middleware(['auth', 'roleCek:admin'])->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 });
 
-Route::middleware(['auth'])->group(function () {
-    //routing konsultasi
-    Route::get('/service', function () {
-        return view('service');
-    })->name('service');
 
-    Route::post('/service', [ConsultationController::class, 'store'])->name('service.post');
-});
 
 Route::middleware(['auth', 'roleCek:dokter'])->group(function () {
     Route::get('/dokter/konsultasi', [DokterController::class, 'index'])->name('dokter.konsultasi');
@@ -91,8 +92,7 @@ Route::get('/blog ', [UserController::class, 'blog_action'])->name('blog.action 
 Route::get('/detail ', [UserController::class, 'detail '])->name('detail ');
 Route::get('/detail ', [UserController::class, 'detail_action'])->name('detail.action ');
 
-Route::get('/feature ', [UserController::class, 'feature '])->name('feature');
-Route::get('/feature ', [UserController::class, 'feature_action'])->name('feature.action ');
+
 
 Route::get('/testimonial ', [UserController::class, 'testimonial '])->name('testimonial');
 Route::get('/testimonial ', [UserController::class, 'testimonial_action'])->name('testimonial.action ');

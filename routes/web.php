@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('index');
 
 Route::get('/contact', function () {
     return view('contact');
@@ -41,6 +41,15 @@ Route::get('/feature', function () {
     return view('feature');
 });
 
+//route pemesanan membership
+Route::get('/pemesanan/{type}', function ($type) {
+    return view('pemesanan', ['type' => $type]);
+})->name('pemesanan');
+
+Route::post('/pemesanan/', [UserController::class, 'setType'])->name('pemesanan.action');
+
+
+//route testimonial
 Route::get('/testimonial', function () {
     return view('testimonial');
 });

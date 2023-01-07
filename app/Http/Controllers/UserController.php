@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Transaction;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -12,6 +13,32 @@ class UserController extends Controller
     public function register()
     {
         return view('Auth.register');
+    }
+
+    public function setType(Request $request)
+    {
+        $id = Auth::user()->id;
+        $user = User::find($id);
+        $request->validate([
+            'nama' => 'required',
+            'nik' => 'required',
+            'no_hp' => 'required',
+            'tanggal_pemesanan' => 'required',
+            'pembayaran' => 'required'
+        ]);
+        $transaction = new Transaction([
+            'nama' => $request->nama,
+            'nik' => $request->nik,
+            'no_hp' => $request->no_hp,
+            'tanggal_pemesanan' => $request->tanggal_pemesanan,
+            'pembayaran' => $request->pembayaran,
+            'paket' => $request->paket,
+
+        ]);
+        $transaction->save();
+        $user->type = $request['paket'];
+        $user->save();
+        return redirect()->route('index');
     }
 
     public function register_action(Request $request)

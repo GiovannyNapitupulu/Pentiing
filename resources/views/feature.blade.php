@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('title')
-    Pentiing | Service
+    Pentiing | Membership
 @endsection
 @section('content')
     <!-- Page Header Start -->
@@ -15,6 +15,12 @@
         </div>
     </div>
     <!-- Page Header End -->
+    @if (session('upgrade'))
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>{{ session('upgrade') }}</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    @endif
 
 
     <!-- Features Start -->
@@ -149,12 +155,12 @@
                                     <li>Modul</li>
                                     <li>Artikel</li>
                                     <li>Komunitas</li>
-                                    
+
                                 </ul>
                                 <div class="btn-wrap">
-                                        <a href="{{ route('pemesanan', ['type' => 'platinum']) }}"
-                                            class="btn btn-buy btn-primary">Pesan!</a>
-                                    </div>
+                                    <a href="{{ route('pemesanan', ['type' => 'platinum']) }}"
+                                        class="btn btn-buy btn-primary">Pesan!</a>
+                                </div>
                             </div>
                         </div>
                     </div>

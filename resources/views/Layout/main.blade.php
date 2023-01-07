@@ -52,7 +52,8 @@
                     <a href="/contact" class="nav-item nav-link {{ Request::is('contact') ? 'active' : '' }}">Kontak</a>
                     @auth
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{Auth::user()->name}}</a>
+                            <a href="#" class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown">{{ Auth::user()->name }}</a>
                             <div class="dropdown-menu m-0">
                                 <a href="/blog" class="dropdown-item">Modul</a>
                                 <a href="/detail" class="dropdown-item">Komunitas</a>
@@ -139,6 +140,8 @@
         <script src="lib/easing/easing.min.js"></script>
         <script src="lib/waypoints/waypoints.min.js"></script>
         <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>

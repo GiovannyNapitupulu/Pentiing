@@ -20,7 +20,7 @@ class CekType
         if (in_array(Auth::user()->type, $type)) {
             return $next($request);
         } else {
-            return redirect()->route('feature');
+            return redirect()->route('feature')->with('upgrade', "Upgrade membership anda!");
         }
     }
 }

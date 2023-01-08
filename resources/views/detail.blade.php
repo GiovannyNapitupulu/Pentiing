@@ -1,6 +1,6 @@
 @extends('layout.main')
 @section('title')
-    Pentiing | Contact
+    Pentiing | Komunitas
 @endsection
 @section('content')
     <!-- Page Header Start -->

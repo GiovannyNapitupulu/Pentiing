@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\consultation;
+use App\Models\jawaban;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Redirect;
 
-class ConsultationController extends Controller
+class JawabanController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -37,31 +38,25 @@ class ConsultationController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'email' => 'required|email',
-            'name' => 'required',
-            'topic' => 'required',
-            'description' => 'required',
-            'question' => 'required'
+            'body' => 'required',
+            'consultation_id' => 'required',
         ]);
-        $consultation = new consultation([
-            'name' => $request->name,
-            'email' => $request->email,
-            'topic' => $request->topic,
-            'description' => $request->description,
-            'question' => $request->question,
+        $jawaban = new jawaban([
+            'body' => $request->body,
+            'consultation_id' => $request->consultation_id,
             'user_id' => Auth::user()->id
         ]);
-        $consultation->save();
-        return redirect()->route('service')->with('service', 'Your question has been sent');
+        $jawaban->save();
+        return Redirect::back();
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\consultation  $consultation
+     * @param  \App\Models\jawaban  $jawaban
      * @return \Illuminate\Http\Response
      */
-    public function show(consultation $consultation)
+    public function show(jawaban $jawaban)
     {
         //
     }
@@ -69,10 +64,10 @@ class ConsultationController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\consultation  $consultation
+     * @param  \App\Models\jawaban  $jawaban
      * @return \Illuminate\Http\Response
      */
-    public function edit(consultation $consultation)
+    public function edit(jawaban $jawaban)
     {
         //
     }
@@ -81,10 +76,10 @@ class ConsultationController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\consultation  $consultation
+     * @param  \App\Models\jawaban  $jawaban
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, consultation $consultation)
+    public function update(Request $request, jawaban $jawaban)
     {
         //
     }
@@ -92,10 +87,10 @@ class ConsultationController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\consultation  $consultation
+     * @param  \App\Models\jawaban  $jawaban
      * @return \Illuminate\Http\Response
      */
-    public function destroy(consultation $consultation)
+    public function destroy(jawaban $jawaban)
     {
         //
     }

@@ -60,6 +60,7 @@
                                 <a href="/feature" class="dropdown-item">Membership</a>
                                 <a href="/workshop" class="dropdown-item">Workshop</a>
                                 <a href="/testimonial" class="dropdown-item">Testimonial</a>
+                                <a href="{{ route('profile') }}" class="dropdown-item">profile</a>
                                 <a href="{{ route('logout') }}" class="dropdown-item">logout</a>
                             </div>
                         </div>
@@ -72,6 +73,10 @@
         <!-- Navbar End -->
         <div class="container-fluid">
             @yield('content')
+        </div>
+
+        <div class="container mt-5 mb-5" style="width: 70%">
+            @yield('content2')
         </div>
         <!-- Footer Start -->
         <div class="container-fluid bg-dark text-secondary p-5">

@@ -23,7 +23,7 @@
                         <div class="row">
                             <div class="col-2">
                                 <img class="rounded-circle"
-                                    src="https://ui-avatars.com/api/?background=4CB4EB&name={{ Auth()->user()->name }}"
+                                    src="https://ui-avatars.com/api/?background=4CB4EB&name={{ $item->user->name }}"
                                     alt="" style="width: 60px;height:60px">
                             </div>
                             <div class="col">
@@ -34,9 +34,6 @@
                                         </h6>
                                         <small class="card-subtitle text-muted">oleh: {{ $item->name }} </small> <br>
                                         <small class="text-primary">dijawab oleh: </small>
-                                    </div>
-                                    <div class="col-3">
-                                        <small>2 menit yang lalu</small>
                                     </div>
                                 </div>
                             </div>

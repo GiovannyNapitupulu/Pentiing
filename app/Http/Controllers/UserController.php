@@ -83,6 +83,8 @@ class UserController extends Controller
         return back()->withErrors("email atau password salah");
     }
 
+
+
     public function logout(Request $request)
     {
         Auth::logout();

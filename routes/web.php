@@ -56,6 +56,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/profile', function () {
         return view('profile');
     })->name('profile');
+    Route::post('/profile', [UserController::class, 'update'])->name('user.action');
     Route::get('/konsultasi/{id}', [DokterController::class, 'detail'])->name('user.question.detail');
 });
 
@@ -93,7 +94,7 @@ Route::middleware(['auth', 'roleCek:admin'])->group(function () {
 
 
 
-Route::middleware(['auth', 'roleCek:dokter'])->group(function () {
+Route::middleware(['auth', 'roleCek:dokter,user'])->group(function () {
     Route::get('/dokter/konsultasi', [DokterController::class, 'index'])->name('dokter.konsultasi');
     Route::get('/dokter/konsultasi/{id}', [DokterController::class, 'detail'])->name('question.detail');
 });

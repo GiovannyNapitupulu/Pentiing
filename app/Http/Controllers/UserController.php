@@ -59,6 +59,11 @@ class UserController extends Controller
         return redirect()->route('login')->with('success', 'Regsitration Success');
     }
 
+    public function update(Request $request){
+        User::where('id',Auth::user()->id)->update(['name'=>$request->name,'password'=>Hash::make($request->password)]);
+        return redirect()->route("profile");
+    }
+
     public function login()
     {
         return view('Auth.login');
